@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController as DashboardController;
 use App\Http\Controllers\Admin\ProjectController as ProjectController;
 use App\Http\Controllers\Admin\CategoryController as CategoryController;
-use App\Http\Controllers\Admin\TechnologyController as TecnologyController;
+use App\Http\Controllers\Admin\TechnologyController as TechnologyController;
 
 
 /*
