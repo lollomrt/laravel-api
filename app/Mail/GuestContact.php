@@ -20,7 +20,7 @@ class GuestContact extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($_lead)
     {
        $this->lead = $_lead;
     }
@@ -46,7 +46,7 @@ class GuestContact extends Mailable
     public function content()
     {
         return new Content(
-            view: 'email.guest_email',
+            view: 'emails.guest_email',
         );
     }
 
